@@ -32,7 +32,7 @@ In this task, we build and train two convolutional neural network models on the 
 4. **Model Training**: Both models are trained using the Adam optimizer, with the learning rate scheduler callbacks applied during training.
 
 ### Results:
-- **Exponential Decay LR**: The model trains with a steadily decreasing learning rate.
+- **Exponential Decay LR**: The model trains with a steadily decreasing learning rate and it works better.
 - **OneCycle LR**: The learning rate follows a cyclical pattern, which can help the model converge faster.
 
 We compare the performance of both models on the validation set, and analyze their training curves to understand the impact of the learning rate schedules on model performance.
